@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.vidanim{
+    height: 100vh;
+}
+
+.vidanim video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.vidanim h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 75px;
+    color: white;
+}
+
+section{
+    height: 100vh;
+}
